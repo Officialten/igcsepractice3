@@ -1,0 +1,32 @@
+{
+  "name": "igcse-practice-website",
+  "version": "1.0.0",
+  "description": "IGCSE Practice Papers Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "@google/generative-ai": "^0.24.1",
+    "@openrouter/sdk": "^0.1.10",
+    "@react-oauth/google": "^0.12.2",
+    "@sendgrid/mail": "^8.1.6",
+    "axios": "^1.13.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^6.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
